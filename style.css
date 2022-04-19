@@ -1,0 +1,62 @@
+.ab {
+  font-size: 120%;
+  border-radius: 25px;
+  color: #f0f8ff;
+  background: black;
+  padding: 30px;
+  width: 150px;
+  height: 15px;
+  position:absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ab:hover {
+  background:rgba(0,0,0,0.1);
+  text-decoration: none;
+}
+
+.abb {
+  font-size: 120%;
+  border-radius: 25px;
+  color: aliceblue;
+  background: black;
+  padding: 30px;
+  width: 150px;
+  height: 20px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.abb:hover {
+  background: rgba(0,0,0,0.1);
+  text-decoration: none;
+}
+
+.nav {
+  padding: 30px 30px;
+  background-color: white;
+  overflow: hidden;
+  color: aqua;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.centered {
+  font-size: 300%;
+  color: black;
+  font-style: normal;
+  font-weight: bolder;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

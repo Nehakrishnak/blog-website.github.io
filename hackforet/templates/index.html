@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Users View</title>
+  </head>
+  <body>
+
+    <div style="display:flex;margin:30px;">
+
+
+        <div class="card" style="width: 18rem;" id='{{d["blogid"]}}'>
+
+            <div class="card-body">
+                <p>{{d["blogid"]}}</p>
+                <h5 class="card-title">{{d["blogTitle"]}}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{d["blogAuthor"]}}</h6>
+                <p class="card-text">{{d["blogText"]}}</p>
+
+
+            </div>
+
+        </div>
+        {% endfor %}
+
+</div>
+
+  </body>
+</html>

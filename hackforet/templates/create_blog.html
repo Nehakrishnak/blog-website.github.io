@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Blog</title>
+    <link rel="stylesheet" href="static/styles1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style media="screen">
+      .blog-own{
+        margin:20px;
+        padding:70px;
+        font-size: 20px;
+      }
+      body{
+    background-image: url(https://i.ytimg.com/vi/R9mXtzn8meE/maxresdefault.jpg);
+}
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">EUPORIA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="http://localhost:8080/loginn/home.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8080/loginn/register.php">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8080/loginn/login.php">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8080/loginn/logout.php">Logout</a>
+        </li>
+  
+        
+       
+      </ul>
+    </div>
+  </nav>
+  <form class="" action="/admin" method="post"  target="_top">
+    <h1 style="text-align:center;">Create Your Own Blog !!!</h1>
+    <div class="blog-own">
+      <label for="" style="padding-bottom:10px;">Blog Title :</label><br><br>
+      <input type="text" name="blogTitle" value="" size="80" minlength="10"  style="height:40px;border-radius:5px;" placeholder="Write your blog title here" required>
+      <br><br>
+      <label for="" style="padding-bottom:10px;">Author :</label><br>
+      <input type="text" name="blogAuthor" value="" size="80" minlength="3"  style="height:40px;border-radius:5px;" placeholder="Give a authorized name" required>
+      <br><br>
+      <label for="" style="padding-bottom:10px;">Blog Description :</label><br>
+      <textarea name="blogText" rows="13" cols="180" placeholder="Write your blog here and has a max of 300 characters" maxlength="300" minlength="1" style="border-radius:5px;"  required></textarea>
+      <br><br>
+      <button type="reset" name="button" style="padding:10px;border-radius:5px;margin-left:45%;width:10%;">Reset</button>
+      <button type="submit" name="button" style="padding:10px;border-radius:5px;width:10%;">Submit</button>
+
+    </div>
+  </form>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
